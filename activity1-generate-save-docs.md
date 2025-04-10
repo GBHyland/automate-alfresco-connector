@@ -86,7 +86,7 @@
 ### Deployment Configuration:
 Since the process employs an Authentication and Connectors, two tabs are added to the deploy wizard which you'll need to configure:
 - **Authentication Tab:** You should see the name of the Authentication you applied in the process (myAuth) - (unless you named it something else). Enter the username and password for the Alfresco Admin account you want to use. Usually it is demo / demo.
-- **Connectors Tab:** There's some values on this tab you don't need. Remove them as specified below using the "X" icon next to the value:
+- **Connectors Tab:** There's some values on this tab you don't need. Remove them as specified below using the "X" icon next to the value. If any of the below required values are not there by default you must add them.
   - ```ACS_KEYCLOAK_URL```: remove
   - ```ACS_KEYCLOAK_REALM```: ```alfresco```
   - ```ACS_CONTENT_CLIENT_ID```: remove
