@@ -36,14 +36,14 @@
    - **Name:** ```create-mssg```
    - **Form Name:** _use drop-down to select the Create Message form_
    - **Mapping Type:** ```Map Variables```
-   - **Map OUTPUT variables to:**
+   - **Map OUTPUT variables to:** (Again, if you created your own form, you'll need to map the process values to your form values here, otherwise map the below values)
      - ```Your Name``` > ```v_name```
      - ```Bio``` > ```v_mssg```
 6. Add a **Generate Document** task to the process connected after the User Task. Give it the following configuration:
    - **Name:** ```generate-doc```
    - **Mapping Type:** ```Map Variables```
    - **Map INPUT variables to:**
-     - ```Metadata```: use expression:
+     - ```Metadata```: you'll use an expression to map your process variables to your document template variabes. If you created your own custom form & variables then use the below JSON structure to map the variables in your template to your process variables. Otherwise, use the following.
    ```
    {
       "v_name": "${v_name}",
