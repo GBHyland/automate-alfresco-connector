@@ -92,9 +92,14 @@ Since the process employs an Authentication and Connectors, two tabs are added t
   - ```ACS_KEYCLOAK_REALM```: ```alfresco```
   - ```ACS_CONTENT_CLIENT_ID```: remove
   - ```ACS_CONTENT_CLIENT_SECRET```: remove
-  - ```ACS_CONTENT_SERVICE_URL```: _this is the url to your Alfresco environment with no slashes at the end_
+  - ```ACS_CONTENT_SERVICE_URL```: _this is the url to your Alfresco environment with no slashes at the end. If using my demo environment, enter:_ ```http://gbsandbox741.alfdemo.com```
   - ```ACS_CONTENT_SERVICE_PATH```: ```/alfresco/api/-default-/public/alfresco/versions/1```
   - ```ACS_SEARCH_SERVICE_PATH```: ```/alfresco/api/-default-/public/search/versions/1```
 
-
-**End. Deploy and test.**
+### Deploy and Test
+If using my demo environment, connect to the environment at this address AFTER you have completed your process in Automate:
+http://gbsandbox741.alfdemo.com/share
+- Login with:
+  - username: ```demo```
+  - password: ```demo```
+- Navigate to the shared files section using the **Shared Files** hyperlink at the top of the Dashboard page in the black banner. Your file should be there. (Should be titled **bio-[whatever first name you entered].pdf**).
