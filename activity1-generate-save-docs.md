@@ -15,6 +15,16 @@
 2. Create an Authentication titled ```myAuth```.
    - Use the dropdown in the Auth config to set it to **Basic**.
    - Ensure that the **Secured** check box is checked.
-3. Upload your document template using the three-dots next to **Files**.
+3. Upload your document template (to use in the Generate Document task) using the three-dots next to **Files**.
    - This can be a private file.
-4. 
+4. Create a new form (or use a form you already have created).
+   - If following along this guide, create the form as follows:
+     - Add a text field with the following configuration:
+       - **Label:** ```Your Name:```
+       - **ID:** ```v_name```
+     - Add a text field with the following configuration:
+       - **Label:** ```Bio:```
+       - **ID:** ```v_mssg```
+     - Save the form and return to the process.
+5. Add a **User Task** to the process and give it the following configuration:
+   - 
