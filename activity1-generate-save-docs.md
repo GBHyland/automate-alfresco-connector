@@ -23,7 +23,7 @@
    - This can be a private file.
    - If you don't have a previous template you want to use and plan to follow my process exactly, download the _personnel-file.docx_ from this repository and use it; if so, be sure to use the specific variables I recommend below.
 4. Create a new form (or use a form you already have created).
-   - If following along this guide, create the form as follows:
+   - If you're creating your own form that matches your document template then create the form you want here. If you're following my exact example and used my form then create the form as follows:
      - **Name:** ```Create Message```
      - Add a text field with the following configuration:
        - **Label:** ```Your Name:```
