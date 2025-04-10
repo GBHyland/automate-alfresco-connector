@@ -21,6 +21,7 @@
    - Ensure that the **Secured** check box is checked.
 3. Upload your document template (to use in the Generate Document task) using the three-dots next to **Files**.
    - This can be a private file.
+   - If you don't have a previous template you want to use and plan to follow my process exactly, download the _personnel-file.docx_ from this repository and use it; if so, be sure to use the specific variables I recommend below.
 4. Create a new form (or use a form you already have created).
    - If following along this guide, create the form as follows:
      - **Name:** ```Create Message```
